@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(-65deg, #ee7752, #e73c7e, #065875, #0b7059);
+    background: linear-gradient(-65deg, #391e66, #7026c5, #065875, #0b7059);
 	background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     
@@ -76,23 +76,29 @@ ul{
     margin-right: 2px;
 }
 
-.skills h1{
+.abme{
+}
+
+.skills{
+    width: 50%;
+    
+}
+.skills > h1{
     text-align: center;
-    margin: 2em auto;
 }
 
 .skills ul{
-  display: flex;
-  justify-content: center;
-  
+    
+    margin: 0;
+    padding: 0;
+
 }
 
 .skills ul li{
     text-align: center;
-    margin: 0 5em;
-    padding: 2em 4em;
+    padding: 1% 0;
+    
     color: white;
-
 }
 .skills ul li:hover{
     background-color: rgb(224, 237, 241);
@@ -101,7 +107,30 @@ ul{
 }
 
 .hobbies{
-    display: none;
-    justify-content: right;
+    
+    width: 50%;
+    float: right;
+    position: relative;
+    top: -270px;
+    margin-top: 0;
 }
 
+.hobbies h1{
+    text-align: center;
+}
+
+.hobbies ul{
+    padding: 0;
+    margin: 0;
+}
+
+.hobbies ul li{
+    text-align: center;
+    padding: 1% 0;
+}
+
+.hobbies ul li:hover{
+    background-color: rgb(224, 237, 241);
+    opacity: 80%;
+    color: black;
+}

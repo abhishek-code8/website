@@ -112,3 +112,21 @@ div ul li{
     background-color: white ;
 }
 
+
+@media(max-width: 786px){
+
+    .ProfilePicture{
+        width: 75%;
+    }
+    h1{
+        font-size: 1em;
+    }
+    .skills , .hobbies{
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    .skills{
+        margin-bottom: 25px;
+    }
+}

@@ -6,7 +6,6 @@ body{
     margin: 0;
     width: 100%;
     height: 100%;
-    font-family: ;
     color: rgb(233, 219, 219);
     font-family: 'Cantarell Light';
 }
@@ -23,25 +22,36 @@ body{
 }
 
 
+h2{
+    text-align: center;
+    margin: 0;
+}
+
+div > ul{
+    padding: 0;
+    margin: 0;
+}
+
+
 .ProfilePicture{
     display: block;
-    margin-top: 5em;
+    margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
-    width: 11%;
-    justify-content: center;
-    z-index: 8;
+    width: 10%;
     border-radius: 10%; 
     
 }
 
-.name{    
+.name{
     color: rgb(224, 215, 215);
-    font-size: 60px;
+    font-size: 4em;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 4px;
 }
+
+
 ul{
     list-style-type: none;
 }
@@ -77,60 +87,28 @@ ul{
 }
 
 .abme{
-}
-
-.skills{
-    width: 50%;
-    
-}
-.skills > h1{
     text-align: center;
+    padding: 1em 0;
+    
 }
 
-.skills ul{
-    
-    margin: 0;
+.skills , .hobbies{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 49%;
+    margin: 1% 0;
+    text-align: center;
     padding: 0;
-
+    vertical-align: top;    
 }
 
-.skills ul li{
+div ul li{
     text-align: center;
-    padding: 1% 0;
-    
-    color: white;
+    padding: 1em 0;
 }
-.skills ul li:hover{
-    background-color: rgb(224, 237, 241);
-    opacity: 80%;
+
+.abme ul li:hover{
     color: black;
+    background-color: white ;
 }
 
-.hobbies{
-    
-    width: 50%;
-    float: right;
-    position: relative;
-    top: -270px;
-    margin-top: 0;
-}
-
-.hobbies h1{
-    text-align: center;
-}
-
-.hobbies ul{
-    padding: 0;
-    margin: 0;
-}
-
-.hobbies ul li{
-    text-align: center;
-    padding: 1% 0;
-}
-
-.hobbies ul li:hover{
-    background-color: rgb(224, 237, 241);
-    opacity: 80%;
-    color: black;
-}

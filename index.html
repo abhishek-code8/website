@@ -1,48 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cantarell&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- <img src="img/bkg3.jpg" alt="" class="backgd"> -->
-    <img src="profilepic.jpg"picture" class="ProfilePicture">
-    <h1 class="name">Abhishek Sharma</h1>
-    <div class="namepic">
-            <div class="NandL">                
-                <ul class="links">
-                    <li><img src="linkedin-icon-2.svg" alt="linkedinpic" width="25" height="25" class="linkedinpic"></li>
-                    <li class="linkedin"><a href="https://www.linkedin.com/in/abhishek-sharma-08/" target="_black">LinkedIn</a></li>
-                    <li><img src="github.svg" alt="github" class="github" width="25" height="25"></li>
-                    <li><a href="https://github.com/abhishek-code8" target="_blank">Github</a></li>
-                </ul> 
-            </div>   
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cantarell&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">XOXO</span>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="maintext col-md-8">
+        <h1 class="">Abhishek Sharma</h1>
+        <section class="type">
+          <p id="animation">Associate Developer at IBM</p>
+        </section>
+        <section class="mt-4">
+          <a href="https://github.com/abhishek-code8" target="_blank"
+            ><img src="assets/github.svg" height="25px" alt=""
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/abhishek-sharma-08/"
+            target="_blank"
+            class="ml-2"
+            ><img src="assets/linkedin-icon-2.svg" height="25px" alt=""
+          /></a>
+        </section>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="assets/profilepic.jpg" height="200px" alt="" />
+      </div>
     </div>
-    <!--<p id="activities">Student / Developer</p> -->
-    <div class="abme">
-        <div class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Python</li> 
-                <li>Javascript</li>    
-                <li>HTML/CSS</li>           
-                <li>C/C++</li>
-                <li>Machine Learning</li>
-            </ul>
-        </div>
-        <div class="hobbies">
-            <h2>Hobbies</h2>
-            <ul>
-                <li>Programming</li>
-                <li>Badminton</li>
-                <li>Gaming</li>
-            </ul>
-        </div>
-        
+    <div class="skills mt-4 container">
+      <div class="row">
+        <section class="col-3">Web Application Development</section>
+        <span class="col-1"></span>
+        <section class="col-3">
+          Certified Cloud Developer and Linux Administrator
+        </section>
+        <span class="col-1"></span>
+        <section class="col-3">Blockchain Developer and Enthusiast</section>
+      </div>
     </div>
-    
-</body>
+    <div class="main">
+      <div class="row">
+        <div class="card" style="width: 18rem">
+          <img src="" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Code</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Code</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Code</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card" style="width: 18rem">
+          <img src="" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Code</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">XOXO</span>
+      </nav>
+    </footer>
+
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>

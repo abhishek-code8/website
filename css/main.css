@@ -11,6 +11,7 @@
 }
 
 .navbar-brand {
+  background: #C44B4F;
   display: inline-block;
   font-family: "Roboto Mono", monospace;
 }
@@ -28,11 +29,17 @@
   font-family: "Cantarell Light";
 }
 
+body{
+  background: hsl(0, 0%, 47%);
+}
+
 .main {
-  border-style: solid;
+  /* border-style: solid; */
   border-color: black;
   height: ;
 }
+
+
 
 .pic {
   border-radius: 2em;

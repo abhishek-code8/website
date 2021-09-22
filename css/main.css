@@ -10,10 +10,23 @@
   }
 }
 
+body{
+  background: #E7F2F8;
+}
+
 .navbar-brand {
   
   display: inline-block;
   font-family: "Roboto Mono", monospace;
+}
+.blinker {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 
 .dynamic-line {
@@ -29,9 +42,7 @@
   font-family: "Cantarell Light";
 }
 
-body{
-  background: hsl(0, 0%, 47%);
-}
+
 
 .main {
   /* border-style: solid; */
@@ -39,6 +50,10 @@ body{
   height: ;
 }
 
+.btn-primary{
+  background-color: #E7F2F8;
+  border-color: #C44B4F;
+}
 
 
 .pic {
@@ -53,6 +68,18 @@ body{
 
 .accordion {
   margin: 2% auto;
+}
+
+.accordion-body,.card-body{
+  background: #E7F2F8;
+
+}
+.card{
+  padding: 0;
+  border-color: #607D86;
+}
+.bg-secondary{
+  background-color: #FFA384;
 }
 @keyframes fadein {
   0% {
